@@ -1,0 +1,147 @@
+.atelier {
+  background-color: #252525;
+  padding: 40px 0 100px;
+}
+
+.atelier .about-atelier {
+  padding-bottom: 30px;
+}
+
+.atelier .about-atelier h3 {
+  color: #999999;
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.atelier .about-atelier p,
+.atelier .about-atelier span {
+  color: #999999;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.atelier .follow-us {
+  padding-bottom: 30px;
+}
+
+.atelier .follow-us h3 {
+  color: #999999;
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.atelier .follow-us ul {
+  display: flex;
+}
+
+.atelier .follow-us ul a {
+  color: #cccccc;
+  padding: 10px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 16px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.atelier .follow-us ul a:hover > i {
+  rotate: 360deg;
+  transition: all 0.5s ease;
+}
+
+.atelier .follow-us .twitter:hover {
+  background-color: #00aced;
+}
+
+.atelier .follow-us .facebook:hover {
+  background-color: #3b5998;
+}
+
+.atelier .follow-us .drible:hover {
+  background-color: #ea4c89;
+}
+
+.atelier .follow-us .youtube:hover {
+  background-color: #b00;
+}
+
+.atelier .follow-us .viamo:hover {
+  background-color: #7FC400;
+}
+
+.atelier .follow-us .tumblr:hover {
+  background-color: #32506d;
+}
+
+.atelier .follow-us .skype:hover {
+  background-color: #0076ca;
+}
+
+.atelier .follow-us .linkedin:hover {
+  background-color: #007bb6;
+}
+
+.atelier .follow-us .google:hover {
+  background-color: #dd4b39;
+}
+
+.atelier .follow-us .flickr:hover {
+  background-color: #ff0084;
+}
+
+.atelier .follow-us .pinterest:hover {
+  background-color: #cb2027;
+}
+
+.atelier .follow-us .foursquare:hover {
+  background-color: #00aeef;
+}
+
+.atelier .follow-us .insta:hover {
+  background-color: #517fa4;
+}
+
+.atelier .follow-us .git:hover {
+  background-color: #333;
+}
+
+.atelier .follow-us .xing:hover {
+  background-color: #026466;
+}
+
+.atelier .follow-us .behance:hover {
+  background-color: #1769ff;
+}
+
+.atelier .follow-us .cloud:hover {
+  background-color: #f80;
+}
+
+.atelier .follow-us .rss:hover {
+  background-color: #f26522;
+}
+
+.atelier .newsletter {
+  padding-bottom: 30px;
+}
+
+.atelier .newsletter h3 {
+  color: #999999;
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.atelier .email {
+  width: 100% !important;
+  border: none;
+  outline: none;
+  padding: 10px;
+  margin: 6px 0 15px;
+  color: #999999;
+  font-size: 14px;
+  background: none;
+}

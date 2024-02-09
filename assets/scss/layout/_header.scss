@@ -1,0 +1,198 @@
+header {
+  .hdr {
+    height: 88px;
+  }
+}
+
+.left-area {
+  @include center;
+  font-size: 20px;
+  color: $header-color;
+  .bars {
+    width: 100%;
+    padding-right: 20px;
+    border-right: 2px solid $header-border-color;
+    height: 100%;
+    @include center;
+    i {
+      padding: 0 10px;
+      color: $header-color;
+      font-size: 20px;
+      &:hover {
+        color: $header-hover-color;
+      }
+    }
+  }
+  .search {
+    height: 100%;
+    @include center;
+    padding-left: 25px;
+    i {
+      padding: 0 10px;
+      color: $header-color;
+      font-size: 20px;
+      &:hover {
+        color: $header-hover-color;
+      }
+    }
+  }
+}
+
+.center-area {
+  @include center;
+  .drp-list {
+    @include center;
+    li {
+      padding: 0 15px;
+      p {
+        margin-bottom: 0;
+        text-decoration: none;
+        color: $header-color;
+        font-size: 16px;
+        font-weight: 600;
+        position: relative;
+        &:hover {
+          color: $header-hover-color;
+          cursor: pointer;
+
+          &:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 20px;
+            width: 100%;
+            height: 1px;
+            background-color: $header-hover-color;
+          }
+        }
+      }
+      .logo-atelier {
+        padding: 0 30px;
+      }
+    }
+
+    .new {
+      position: relative;
+      span {
+        position: absolute;
+        width: 30px;
+        height: 20px;
+        border: 2px solid $demos-color;
+        bottom: 20px;
+        right: 0;
+        @include center;
+        color: $demos-color;
+        font-size: 10px;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+.right-area {
+  @include center;
+  padding: 0 15px;
+  .wishlist {
+    padding: 0 25px;
+    ul {
+      @include center;
+       .empty{
+        padding: 5px 12px 0 12px;
+        i {
+          color: $header-color;
+          font-size: 20px;
+          &:hover {
+            color: $header-hover-color;
+          }
+        }
+      }
+      .empty1{
+        padding: 0 12px;
+        i {
+          color: $header-color;
+          font-size: 20px;
+          &:hover {
+            color: $header-hover-color;
+          }
+        }
+      }
+
+    }
+  }
+
+  .user {
+    padding-left: 25px;
+    border-left: 2px solid $header-border-color;
+    height: 100%;
+    @include center;
+    i {
+      padding: 0 10px;
+      color: $header-color;
+      font-size: 20px;
+      &:hover {
+        color: $header-hover-color;
+      }
+    }
+  }
+}
+
+.empty {
+  &:hover > div {
+    visibility: visible;
+  }
+  div {
+    position: absolute;
+    padding: 25px 35px;
+    z-index: 10;
+    border: 1px solid $header-border-color;
+    background-color: $white-color;
+    right: 65%;
+    top: 88px;
+    width: 330px;
+    visibility: hidden;
+
+    span {
+      font-size: 14px;
+      color: $header-color;
+    }
+  }
+}
+
+.empty1 {
+  &:hover > div {
+    visibility: visible;
+  }
+  div {
+    position: absolute;
+    padding: 25px 35px;
+    z-index: 10;
+    border: 1px solid $header-border-color;
+    background-color: $white-color;
+    right: 42%;
+    top: 88px;
+    width: 280px;
+    visibility: hidden;
+    span {
+      font-size: 14px;
+      color: $header-color;
+    }
+  }
+}
+
+.navbar {
+  background-color: $demos-color;
+  padding: 15px 0;
+  .nvbr-text {
+    @include center;
+    div {
+      color: #397265;
+      font-size: 14px;
+      line-height: 26px;
+      padding: 0 15px;
+      @include center;
+      //  span{
+      //   width: 100%;
+      //  }
+    }
+  }
+}

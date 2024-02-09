@@ -1,0 +1,13 @@
+.features-carousel {
+  background-color: #191919;
+  padding-top: 20px;
+}
+
+.features-carousel .text {
+  padding: 8% 16%;
+}
+
+.features-carousel .text span {
+  font-size: 36px !important;
+  line-height: 44px !important;
+}
